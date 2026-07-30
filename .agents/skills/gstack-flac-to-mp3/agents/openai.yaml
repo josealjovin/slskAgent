@@ -1,0 +1,6 @@
+interface:
+  display_name: "flac-to-mp3"
+  short_description: "Batch-encode all .flac files in ~/Downloads/soulseek-flac/ to .mp3 at 320kbps via ffmpeg. Deletes originals after confirmation."
+  default_prompt: "Use flac-to-mp3 for this task."
+policy:
+  allow_implicit_invocation: true

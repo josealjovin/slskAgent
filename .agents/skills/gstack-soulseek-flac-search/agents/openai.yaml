@@ -1,0 +1,6 @@
+interface:
+  display_name: "soulseek-flac-search"
+  short_description: "Read a playlist .md file and search Soulseek via aioslsk for each track's FLAC version. Produces search_manifest.json."
+  default_prompt: "Use soulseek-flac-search for this task."
+policy:
+  allow_implicit_invocation: true

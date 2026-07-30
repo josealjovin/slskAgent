@@ -1,0 +1,6 @@
+interface:
+  display_name: "spotify-playlist-export"
+  short_description: "Fetch all tracks from a Spotify playlist URL and write them to a timestamped .md file."
+  default_prompt: "Use spotify-playlist-export for this task."
+policy:
+  allow_implicit_invocation: true

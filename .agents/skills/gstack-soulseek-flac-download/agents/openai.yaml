@@ -1,0 +1,6 @@
+interface:
+  display_name: "soulseek-flac-download"
+  short_description: "Read search_manifest.json and download all FLAC files from Soulseek into ~/Downloads/soulseek-flac/."
+  default_prompt: "Use soulseek-flac-download for this task."
+policy:
+  allow_implicit_invocation: true
